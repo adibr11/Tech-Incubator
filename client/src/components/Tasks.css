@@ -1,0 +1,109 @@
+.tasksPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(180deg, rgba(252, 252, 198, 0.87), rgb(249, 241, 249));
+    height: 100vh;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  .tasksContainer {
+    color: rgb(127, 126, 199);
+    margin: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(205, 200, 235, 0.87), rgb(202, 192, 238));
+    width: 50vh;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+  }
+
+
+  .userTasks {
+    color: rgb(55, 55, 59);
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 50vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .tasksContainer h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.75);
+  }
+
+  .inputGroup {
+    margin: auto;
+    padding-bottom: 20px;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 100% 'Roboto', sans-serif;
+    font-size: large;
+    color: #000;
+  }
+
+  textarea {
+    height: 250px;
+    background-color: rgb(247, 249, 249);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .taskField {
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+  }
+.btn-primary {
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+    border-color: white;
+    color: black;
+    border-radius: 4px;
+    width: 20vh;
+  }
+
+  .userTasks h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    background: linear-gradient(180deg, rgba(205, 200, 235, 0.87), rgb(202, 192, 238));
+    border-radius: 20px;
+    width: 30vh;
+    height: 5vh;
+    text-align: center;
+    border-color: none;
+
+  }
+
+  .deleteTask button {
+    background-color: rgb(221, 221, 221);
+    border: none;
+  }
+
+  .Accepted-Tasks {
+    margin-top: 120px;
+    margin-left: 20px;
+    background-color: aquamarine;
+  }
+  
