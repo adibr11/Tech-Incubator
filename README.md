@@ -1,4 +1,4 @@
-# Tech Incubator
+# Tech Incubator App
 
 This repository contains the full-stack application built with Node.js in the backend and React.js in the frontend.
 The deployed version of the project can be found at: https://tech-incubator-app.vercel.app/
